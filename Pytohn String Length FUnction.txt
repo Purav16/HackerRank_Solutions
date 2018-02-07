@@ -1,0 +1,8 @@
+#Python String Length Function
+input_string = input("Please enter any string")
+def String_Length(input_string):
+    count = 0
+    for char in input_string:
+        count+=1
+    return count
+print(String_Length(input_string))
